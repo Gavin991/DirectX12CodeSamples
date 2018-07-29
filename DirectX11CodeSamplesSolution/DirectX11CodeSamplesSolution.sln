@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXUT", "DXUT-master\Core\DXUT_2015_Win10.vcxproj", "{85344B7F-5AA0-4E12-A065-D1333D11F6CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXOne", "DirectXOne\DirectXOne\DirectXOne.vcxproj", "{BF389580-D3A4-4EE2-A569-55655972644F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85344B7F-5AA0-4E12-A065-D1333D11F6CA} = {85344B7F-5AA0-4E12-A065-D1333D11F6CA}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,6 +32,18 @@ Global
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Release|x64.Build.0 = Release|x64
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Release|x86.ActiveCfg = Release|Win32
 		{85344B7F-5AA0-4E12-A065-D1333D11F6CA}.Release|x86.Build.0 = Release|Win32
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Debug|x64.ActiveCfg = Debug|x64
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Debug|x64.Build.0 = Debug|x64
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Debug|x86.Build.0 = Debug|Win32
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Profile|x64.ActiveCfg = Release|x64
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Profile|x64.Build.0 = Release|x64
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Profile|x86.ActiveCfg = Release|Win32
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Profile|x86.Build.0 = Release|Win32
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Release|x64.ActiveCfg = Release|x64
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Release|x64.Build.0 = Release|x64
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Release|x86.ActiveCfg = Release|Win32
+		{BF389580-D3A4-4EE2-A569-55655972644F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
