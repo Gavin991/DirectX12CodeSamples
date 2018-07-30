@@ -36,3 +36,5 @@
 /DirectX11CodeSamplesSolution/x64/Debug
 /DirectX11CodeSamplesSolution/ipch/DXUT_2015_WIN10-23c019d0
 /DirectX11CodeSamplesSolution/DirectXOne/DirectXOne/x64/Debug
+*.idb
+/DirectX11CodeSamplesSolution/DirectXTwo/DirectXTwo/x64/Debug
