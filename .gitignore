@@ -38,3 +38,5 @@
 /DirectX11CodeSamplesSolution/DirectXOne/DirectXOne/x64/Debug
 *.idb
 /DirectX11CodeSamplesSolution/DirectXTwo/DirectXTwo/x64/Debug
+/DirectX11CodeSamplesSolution/DirectXThree/DirectXThree/x64/Debug
+*.sdf

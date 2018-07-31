@@ -1,0 +1,70 @@
+//--------------------------------------------------------------------------------------
+// File: Tutorial04.fx
+//
+// Copyright (c) Microsoft Corporation. All rights reserved.
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+// Constant Buffer Variables
+//--------------------------------------------------------------------------------------
+cbuffer ConstantBuffer : register( b0 )
+{
+	matrix World;
+	matrix View;
+	matrix Projection;
+}
+
+//--------------------------------------------------------------------------------------
+// Vertex shader output structure
+//--------------------------------------------------------------------------------------
+struct VS_INPUT
+{
+    float4 Pos : POSITION;
+    float4 Color : COLOR;
+};
+
+struct VS_OUTPUT
+{
+    float4 Pos : SV_POSITION;
+    float4 Color : COLOR;
+};
+
+//--------------------------------------------------------------------------------------
+// Pixel shader output structure
+//--------------------------------------------------------------------------------------
+struct PS_OUTPUT
+{
+    float4 RGBColor : COLOR;  // Pixel color    
+};
+
+
+//--------------------------------------------------------------------------------------
+// Vertex Shader
+//--------------------------------------------------------------------------------------
+VS_OUTPUT VS( VS_INPUT input )
+{
+    VS_OUTPUT output = (VS_OUTPUT)0;
+    output.Pos = mul( input.Pos, World );
+    output.Pos = mul( output.Pos, View );
+    output.Pos = mul( output.Pos, Projection );
+    output.Color = input.Color;
+    return output;
+}
+
+
+//--------------------------------------------------------------------------------------
+// Pixel Shader
+//--------------------------------------------------------------------------------------
+
+//float4 PS( VS_OUTPUT input ) : SV_Target
+//{
+//    return input.Color;
+//}
+
+
+PS_OUTPUT PS( VS_OUTPUT input ) 
+{
+     PS_OUTPUT Output;
+     Output.RGBColor=input.Color;
+     return Output;
+}
