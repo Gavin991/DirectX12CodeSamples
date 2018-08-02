@@ -24,6 +24,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXThree", "DirectXThre
 		{61B333C2-C4F7-4CC1-A9BF-83F6D95588EB} = {61B333C2-C4F7-4CC1-A9BF-83F6D95588EB}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectXFour", "DirectXFour\DirectXFour\DirectXFour.vcxproj", "{09D542EF-C764-424B-AE94-4F8A7BF47CA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -94,6 +96,18 @@ Global
 		{A996CE2C-347A-4F2C-AA80-47BB2C43304C}.Release|x64.Build.0 = Release|x64
 		{A996CE2C-347A-4F2C-AA80-47BB2C43304C}.Release|x86.ActiveCfg = Release|Win32
 		{A996CE2C-347A-4F2C-AA80-47BB2C43304C}.Release|x86.Build.0 = Release|Win32
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Debug|x64.ActiveCfg = Debug|x64
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Debug|x64.Build.0 = Debug|x64
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Debug|x86.ActiveCfg = Debug|Win32
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Debug|x86.Build.0 = Debug|Win32
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Profile|x64.ActiveCfg = Release|x64
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Profile|x64.Build.0 = Release|x64
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Profile|x86.ActiveCfg = Release|Win32
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Profile|x86.Build.0 = Release|Win32
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Release|x64.ActiveCfg = Release|x64
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Release|x64.Build.0 = Release|x64
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Release|x86.ActiveCfg = Release|Win32
+		{09D542EF-C764-424B-AE94-4F8A7BF47CA0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
