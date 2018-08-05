@@ -89,12 +89,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>F:\DirectxTutoria\DXUT-master\Core</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\DXUT-master\Core</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>F:\DirectxTutoria\DXUT-master\Core\Bin\Desktop_2015_Win10\Win32\Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\DXUT-master\Core\Bin\Desktop_2015_Win10\x64\Debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>d3dcompiler.lib;DXUT.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
