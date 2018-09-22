@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <WindowsAppEmulatorID>98CD6FA8-9114-4179-ACA3-38E5D23C77EE;Mobile Emulator 10.0.10586.0 WVGA 4 inch 512MB</WindowsAppEmulatorID>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AppxPackageIsForStore>False</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <WindowsAppEmulatorID>90F4E8F4-EC5F-4B64-B2E8-6EDE6F813BD3;Mobile Emulator 10.0.10586.0 WVGA 4 inch 1GB</WindowsAppEmulatorID>
+  </PropertyGroup>
+</Project>
