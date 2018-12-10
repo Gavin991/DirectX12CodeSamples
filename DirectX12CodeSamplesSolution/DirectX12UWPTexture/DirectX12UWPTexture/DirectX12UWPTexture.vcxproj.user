@@ -13,4 +13,7 @@
     <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
     <WindowsAppEmulatorID>B21F192F-EA89-4E89-ACBF-768588AE3C06;Mobile Emulator 10.0.10586.0 1080p 6 inch 2GB</WindowsAppEmulatorID>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <DebuggerFlavor>WindowsDeviceDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
