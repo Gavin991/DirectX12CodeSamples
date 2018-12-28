@@ -1,0 +1,1 @@
+G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\DirectX12UWPTwoTexture\DirectX12UWPTwoTexture\DirectX12UWPTwoTexture.vcxproj;x64

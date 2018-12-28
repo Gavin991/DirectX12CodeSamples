@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-RDFTR3A</Machine>
+    <WindowsUser>pc</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>25fa040f-bd09-4b40-b215-e8c9d7e8b691</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pc</PackageIdentityPublisher>
+    <IntermediateOutputPath>G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\DirectX12UWPTwoTexture\DirectX12UWPTwoTexture\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>CC39B80E405D13B94133C2637071B78789C904A10FEE740EBE49277786171159</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>25fa040f-bd09-4b40-b215-e8c9d7e8b691_1.0.0.0_x64__savbypjtf9g9c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>25fa040f-bd09-4b40-b215-e8c9d7e8b691_savbypjtf9g9c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>25fa040f-bd09-4b40-b215-e8c9d7e8b691</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pc</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-22T15:12:27.678</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\pic01.jpg">
+      <PackagePath>Assets\pic01.jpg</PackagePath>
+      <Modified>2017-12-29T13:25:16.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\pic02.jpg">
+      <PackagePath>Assets\pic02.jpg</PackagePath>
+      <Modified>2017-12-29T02:46:15.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\pic03.jpg">
+      <PackagePath>Assets\pic03.jpg</PackagePath>
+      <Modified>2017-12-11T13:38:25.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\DirectX12UWPTwoTexture.exe">
+      <PackagePath>DirectX12UWPTwoTexture.exe</PackagePath>
+      <Modified>2018-12-22T15:12:27.335</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\DirectX12UWPTwoTexture.pdb">
+      <PackagePath>DirectX12UWPTwoTexture.pdb</PackagePath>
+      <Modified>2018-12-22T15:12:27.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\DirectX12UWPTwoTexture.winmd">
+      <PackagePath>DirectX12UWPTwoTexture.winmd</PackagePath>
+      <Modified>2018-12-22T15:12:27.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-12-22T15:12:27.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\SamplePixelShader.cso">
+      <PackagePath>SamplePixelShader.cso</PackagePath>
+      <Modified>2018-12-22T15:12:18.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Release\DirectX12UWPTwoTexture\ilc\SampleVertexShader.cso">
+      <PackagePath>SampleVertexShader.cso</PackagePath>
+      <Modified>2018-12-22T15:12:18.749</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.24123.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.24123.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="通用">
+      <UniqueIdentifier>735c2cef-83e9-4ea7-81c8-a45367316449</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资产">
+      <UniqueIdentifier>b2bc513a-fc3c-4b47-bbe8-903e8c28aa50</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="内容">
+      <UniqueIdentifier>dfcbbab8-4f68-4baa-ad23-1057d6554df9</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\d3dx12.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>通用</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>通用</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\Sample3DSceneRenderer.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClCompile Include="Content\Sample3DSceneRenderer.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>资产</Filter>
+    </Image>
+    <Filter Include="内容\ShaderCodes">
+      <UniqueIdentifier>{2e0daa1a-3086-49c3-9e77-242cf7fc5545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\Geometries">
+      <UniqueIdentifier>{e88b522c-c86c-4fef-9752-46de5dcf3a50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="DirectX12UWPTwoPipelineStateMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Content\ConstantBufferViewHeapManager.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ConstantPixelShaderBufferInformation.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\TextureManager.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\PipelineStateManager.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\CustomCube.cpp">
+      <Filter>内容\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\CustomPlane.cpp">
+      <Filter>内容\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\CustomSphere.cpp">
+      <Filter>内容\Geometries</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SimpleCamera.cpp">
+      <Filter>内容</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="DirectX12UWPTwoPipelineStateMain.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Content\ConstantBufferViewHeapManager.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ConstantPixelShaderBufferInformation.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\TextureManager.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\PipelineStateManager.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\CustomSphere.h">
+      <Filter>内容\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\CustomCube.h">
+      <Filter>内容\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\CustomPlane.h">
+      <Filter>内容\Geometries</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SimpleCamera.h">
+      <Filter>内容</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectX12UWPTwoPipelineState_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\pic01.jpg">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\pic02.jpg">
+      <Filter>资产</Filter>
+    </Image>
+    <Image Include="Assets\pic03.jpg">
+      <Filter>资产</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\PlanePixelShader.hlsl">
+      <Filter>内容\ShaderCodes</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\PlaneVertexShader.hlsl">
+      <Filter>内容\ShaderCodes</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>内容\ShaderCodes</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>内容\ShaderCodes</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
