@@ -43,7 +43,7 @@
         </StackPanel>
         <MediaElement x:Name="soundPlayer" Source="Assets/click.wav" Volume="1"  AutoPlay="False" />
         <MediaElement x:Name="mp3Player" Source="Assets/Musit.mp3" Volume="0.1"  AutoPlay="False" IsLooping="True" />
-        <MediaElement  x:Name="mediaPlayer"  Source="Assets/StoryEnding_ZH_TW_6_10.mp4" AutoPlay="True" Volume="0.2" MediaEnded="MovieEnd" />
+        <MediaElement  x:Name="mediaPlayer"  Source="Assets/qysn.mp4" AutoPlay="True" Volume="0.2" MediaEnded="MovieEnd" />
 
     </Grid>
 </Page>

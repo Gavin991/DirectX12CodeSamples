@@ -1,4 +1,0 @@
-﻿  TextureManager.cpp
-g:\directx12codesamples\directx12codesamplessolution\directx12uwptwotexture\directx12uwptwotexture\content\texturemanager.cpp(46): warning C4267: “参数”: 从“size_t”转换到“UINT”，可能丢失数据
-  DirectX12UWPTwoTexture.vcxproj -> G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Debug\DirectX12UWPTwoTexture\DirectX12UWPTwoTexture.exe
-  DirectX12UWPTwoTexture.vcxproj -> G:\DirectX12CodeSamples\DirectX12CodeSamplesSolution\x64\Debug\DirectX12UWPTwoTexture\DirectX12UWPTwoTexture.pdb (Partial PDB)

@@ -4,7 +4,7 @@
 
 #include <tchar.h> 
 
-#include "G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex\DirectXTex.h"
+#include "..\..\DirectXTex-master\DirectXTex\DirectXTex.h"
 
 
 using namespace DirectX;

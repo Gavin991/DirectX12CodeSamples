@@ -98,6 +98,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <PackageCertificateKeyFile>DirectX12XAMLBase_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>9B8CD3DCFB8860721DBA00FD9D77699F88FF62B8</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>

@@ -164,7 +164,7 @@
     <Media Include="Assets\Musit.mp3">
       <Filter>Assets</Filter>
     </Media>
-    <Media Include="Assets\StoryEnding_ZH_TW_6_10.mp4">
+    <Media Include="Assets\qysn.mp4">
       <Filter>Assets</Filter>
     </Media>
   </ItemGroup>
