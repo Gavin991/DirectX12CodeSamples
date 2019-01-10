@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="DirectX12XAMLBase.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DirectX12XAMLBase"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:ConnectionId='1' x:Name="contentPanel" Margin="10,10,10,10">
+            <TextBlock HorizontalAlignment="Left" Text="这是一个XAML" FontSize="36"/>
+            <TextBlock Text="What's your name?"/>           
+            <TextBlock x:ConnectionId='6' x:Name="greetingOutput"/>
+            <CheckBox x:ConnectionId='7' x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <CheckBox x:ConnectionId='8' x:Name="checkBox1" Content="CheckBox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        </StackPanel>
+        <StackPanel x:ConnectionId='2' x:Name="bottomContentPanel" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="620" Height="36" Margin="10">
+            <TextBox x:ConnectionId='4' x:Name="nameInput" Width="300" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+            <Button x:ConnectionId='5' x:Name="inputButton" Content="Say &quot;Hello&quot;" VerticalAlignment="Bottom" HorizontalAlignment="Left"                     />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Button x:ConnectionId='3' x:Name="exitButton" Height="78" Width="78"                      >
+                <Image Source="Assets/ButtonImage.png" Height="60" Width="60"></Image>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Page>
+
