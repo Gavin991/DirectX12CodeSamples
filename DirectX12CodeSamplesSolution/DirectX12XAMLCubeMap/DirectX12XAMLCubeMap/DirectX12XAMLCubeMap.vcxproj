@@ -98,6 +98,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <PackageCertificateKeyFile>DirectX12XAMLCubeMap_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>37195F00304E3F0FBF38244BAF290D6879C9A0E9</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
@@ -127,11 +128,11 @@
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\DirectXTex-master\DirectXTex;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>mincore.lib;d3d12.lib;dxgi.lib;dxguid.lib;DirectXTex.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex\Bin\Desktop_2015_Win10\x64\Debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\DirectXTex-master\DirectXTex\Bin\Desktop_2015_Win10\x64\Debug</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -225,7 +226,6 @@
   <ItemGroup>
     <Media Include="Assets\click.wav" />
     <Media Include="Assets\Musit.mp3" />
-    <Media Include="Assets\StoryEnding_ZH_TW_6_10.mp4" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Content\CubeMapPixelShader.hlsl">

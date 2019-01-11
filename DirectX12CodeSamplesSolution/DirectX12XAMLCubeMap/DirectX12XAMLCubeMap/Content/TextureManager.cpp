@@ -3,7 +3,7 @@
 #include <tchar.h> 
 #include "..\Common\DirectXHelper.h"
 
-#include "G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex\DirectXTex.h"
+#include "..\..\DirectXTex-master\DirectXTex\DirectXTex.h"
 
 //#include "..\Common\DDSTextureLoader.h"
 
