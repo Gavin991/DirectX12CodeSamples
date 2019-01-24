@@ -6,7 +6,7 @@
 #include <ppltasks.h>
 #include <synchapi.h>
 #include "FbxScene3D.h"
-#include "G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex\DirectXTex.h"
+#include "..\..\DirectXTex-master\DirectXTex\DirectXTex.h"
 
 using namespace DirectX12FbxBase;
 

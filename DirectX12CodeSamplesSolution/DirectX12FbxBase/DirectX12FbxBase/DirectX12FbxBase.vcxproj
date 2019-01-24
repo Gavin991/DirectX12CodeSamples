@@ -130,10 +130,10 @@
     <ClCompile>
       <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
       <DisableSpecificWarnings>4453;28204</DisableSpecificWarnings>
-      <AdditionalIncludeDirectories>G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex;D:\Program Files\Autodesk\FBX\FBX SDK UAP\2019.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\DirectXTex-master\DirectXTex;D:\Program Files\Autodesk\FBX\FBX SDK UAP\2019.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex\Bin\Desktop_2015_Win10\x64\Debug;D:\Program Files\Autodesk\FBX\FBX SDK UAP\2019.0\lib\vs2015store\x64\debug</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\DirectXTex-master\DirectXTex\Bin\Desktop_2015_Win10\x64\Debug;D:\Program Files\Autodesk\FBX\FBX SDK UAP\2019.0\lib\vs2015store\x64\debug</AdditionalLibraryDirectories>
       <AdditionalDependencies>d3d12.lib;dxgi.lib;dxguid.lib;DirectXTex.lib;mincore.lib;libfbxsdk-md.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
