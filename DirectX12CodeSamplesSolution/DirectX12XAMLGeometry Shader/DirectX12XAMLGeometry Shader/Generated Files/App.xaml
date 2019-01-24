@@ -1,0 +1,9 @@
+﻿<Application
+    x:Class="DirectX12XAMLGeometry_Shader.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DirectX12XAMLGeometry_Shader"
+    RequestedTheme="Light">
+
+</Application>
+
