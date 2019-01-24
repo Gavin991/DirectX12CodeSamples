@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "PipelineStateManager.h"
 #include "..\Common\DirectXHelper.h"
-//#include "G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex\DirectXTex.h"
+
 
 namespace DirectX12XAMLGeometry_Shader
 {
