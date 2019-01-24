@@ -5,7 +5,7 @@
 #include <ppltasks.h>
 #include <synchapi.h>
 
-#include "G:\Mybooks\UWPSamplesDirectX12\DirectXTex-master\DirectXTex\DirectXTex.h"
+#include "..\..\DirectXTex-master\DirectXTex\DirectXTex.h"
 #include <iostream>
 using namespace DirectX12ColladaDaeMultipleMesh;
 

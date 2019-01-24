@@ -75,6 +75,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX12ColladaDaeBase", "
 		{371B9FA9-4C90-4AC6-A123-ACED756D6C77} = {371B9FA9-4C90-4AC6-A123-ACED756D6C77}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX12ColladaDaeMultipleMesh", "DirectX12ColladaDaeMultipleMesh\DirectX12ColladaDaeMultipleMesh\DirectX12ColladaDaeMultipleMesh.vcxproj", "{47E48D1B-4730-457C-AF88-7B3291E5797D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77} = {371B9FA9-4C90-4AC6-A123-ACED756D6C77}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -562,6 +567,33 @@ Global
 		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x86.ActiveCfg = Release|Win32
 		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x86.Build.0 = Release|Win32
 		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x86.Deploy.0 = Release|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|ARM.Build.0 = Debug|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|ARM.Deploy.0 = Debug|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|x64.ActiveCfg = Debug|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|x64.Build.0 = Debug|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|x64.Deploy.0 = Debug|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|x86.ActiveCfg = Debug|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|x86.Build.0 = Debug|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Debug|x86.Deploy.0 = Debug|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|ARM.ActiveCfg = Release|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|ARM.Build.0 = Release|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|ARM.Deploy.0 = Release|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|x64.ActiveCfg = Release|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|x64.Build.0 = Release|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|x64.Deploy.0 = Release|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|x86.ActiveCfg = Release|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|x86.Build.0 = Release|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Profile|x86.Deploy.0 = Release|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|ARM.ActiveCfg = Release|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|ARM.Build.0 = Release|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|ARM.Deploy.0 = Release|ARM
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|x64.ActiveCfg = Release|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|x64.Build.0 = Release|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|x64.Deploy.0 = Release|x64
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|x86.ActiveCfg = Release|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|x86.Build.0 = Release|Win32
+		{47E48D1B-4730-457C-AF88-7B3291E5797D}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
