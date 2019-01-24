@@ -70,6 +70,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX12XAMLGeometry Shade
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX12UWPTessellation", "DirectX12UWPTessellation\DirectX12UWPTessellation\DirectX12UWPTessellation.vcxproj", "{2497F9BA-4703-4100-932B-84CDF58745DB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX12ColladaDaeBase", "DirectX12ColladaDaeBase\DirectX12ColladaDaeBase\DirectX12ColladaDaeBase.vcxproj", "{147EA89D-47B5-4390-82BA-BC215E07DD4C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77} = {371B9FA9-4C90-4AC6-A123-ACED756D6C77}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -530,6 +535,33 @@ Global
 		{2497F9BA-4703-4100-932B-84CDF58745DB}.Release|x86.ActiveCfg = Release|Win32
 		{2497F9BA-4703-4100-932B-84CDF58745DB}.Release|x86.Build.0 = Release|Win32
 		{2497F9BA-4703-4100-932B-84CDF58745DB}.Release|x86.Deploy.0 = Release|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|ARM.Build.0 = Debug|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|x64.ActiveCfg = Debug|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|x64.Build.0 = Debug|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|x64.Deploy.0 = Debug|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|x86.ActiveCfg = Debug|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|x86.Build.0 = Debug|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Debug|x86.Deploy.0 = Debug|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|ARM.ActiveCfg = Release|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|ARM.Build.0 = Release|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|ARM.Deploy.0 = Release|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|x64.ActiveCfg = Release|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|x64.Build.0 = Release|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|x64.Deploy.0 = Release|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|x86.ActiveCfg = Release|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|x86.Build.0 = Release|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Profile|x86.Deploy.0 = Release|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|ARM.ActiveCfg = Release|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|ARM.Build.0 = Release|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|ARM.Deploy.0 = Release|ARM
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x64.ActiveCfg = Release|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x64.Build.0 = Release|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x64.Deploy.0 = Release|x64
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x86.ActiveCfg = Release|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x86.Build.0 = Release|Win32
+		{147EA89D-47B5-4390-82BA-BC215E07DD4C}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
