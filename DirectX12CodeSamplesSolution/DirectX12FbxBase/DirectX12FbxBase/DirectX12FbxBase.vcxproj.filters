@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>719469cd-c8e0-4ab7-8938-330a1f38a0c4</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>0f391a27-4d29-449e-a7ef-ce9b98874d93</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{3b9241d0-a4e7-4171-9347-fbf11f5af16f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\ReanderObjects">
+      <UniqueIdentifier>{8f03284c-6a8d-43f6-b102-8da89d528d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>{e3bf3c42-46c1-4c79-967e-fe9269e452d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Common\DDSTextureLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DDSTextureLoader12.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ConstantBufferViewHeapManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\ConstantPixelShaderBufferInformation.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\PipelineStateManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\Sample3DSceneRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SimpleCamera.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\TextureManager.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\CustomCube.cpp">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\CustomPlane.cpp">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\CustomSphere.cpp">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX12FbxMain.cpp" />
+    <ClCompile Include="Content\FbxEntity3D.cpp">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\FbxScene3D.cpp">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Common\d3dx12.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DDSTextureLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DDSTextureLoader12.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ConstantBufferViewHeapManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ConstantPixelShaderBufferInformation.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\PipelineStateManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Sample3DSceneRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SimpleCamera.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\TextureManager.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\CustomCube.h">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\CustomPlane.h">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\CustomSphere.h">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX12FbxMain.h" />
+    <ClInclude Include="Common\FbxHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\FbxEntity3D.h">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\FbxScene3D.h">
+      <Filter>Content\ReanderObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\banner.tif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\brick_wall_normal.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\CubeMap.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Ground.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\stone_brown_normal.dds">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\sadface.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Tow_gaussguns.tif">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\xiongmao.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectX12FbxBase_TemporaryKey.pfx" />
+    <None Include="Assets\Banner.fbx">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Sadface.FBX">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\Tow_Gauss1.fbx">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="Assets\xiongmao.FBX">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Content\CubeMapLightPixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\CubeMapLightVertexShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\CubeMapPixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\CubeMapRefractPixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\CubeMapVertexShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\NormalMapPixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\NormalMapVertexShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\PlanePixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\PlaneVertexShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SamplePixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Content\SampleVertexShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Assets\Banner.xml">
+      <Filter>Assets</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
