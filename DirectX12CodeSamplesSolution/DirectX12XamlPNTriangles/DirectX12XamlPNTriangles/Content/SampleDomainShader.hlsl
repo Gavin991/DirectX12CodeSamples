@@ -83,11 +83,10 @@ DomainShaderOutput main(ConstantOutputType input, float3 uvwCoord : SV_DomainLoc
 		input.f3N110 * fW * fU +
 		input.f3N011 * fU * fV +
 		input.f3N101 * fW * fV;
-
 	// Normalize the interpolated normal    
 	f3Normal = normalize(f3Normal);
 
-	Output.pos.xyz = f3Position;// patch[0].pos*uvwCoord.x + patch[1].pos*uvwCoord.y + patch[2].pos*uvwCoord.z;
+	Output.pos.xyz = f3Position;
 	Output.pos.w = 1;
 	float4 pos = Output.pos;
 	// Transform the vertex position into projected space.
@@ -96,52 +95,18 @@ DomainShaderOutput main(ConstantOutputType input, float3 uvwCoord : SV_DomainLoc
 	pos = mul(pos, projection);
 	Output.pos = pos;
 
-	//Output.color = patch[0].color*uvwCoord.x + patch[1].color*uvwCoord.y + patch[2].color*uvwCoord.z;
-
-	//O.f2TexCoord = I[0].f2TexCoord * fW + I[1].f2TexCoord * fU + I[2].f2TexCoord * fV;
 	Output.uv = patch[0].uv*fW + patch[1].uv*fU + patch[2].uv*fV;
-	//Output.uv = patch[0].uv * fWW +
-	//	patch[1].uv * fUU +
-	//	patch[2].uv * fVV +
-	//	input.f3N110 * fW * fU +
-	//	input.f3N011 * fU * fV +
-	//	input.f3N101 * fW * fV;
 
-	Output.norm = f3Normal;// patch[0].norm*uvwCoord.x + patch[1].norm*uvwCoord.y + patch[2].norm*uvwCoord.z;
-
+	Output.norm = f3Normal;
 	Output.norm = normalize(mul(Output.norm, (float3x3)model));
 	float fLighting = saturate(dot(Output.norm, lightDir));
-	Output.color.rgb = fLighting;// saturate(fLighting + input.color);
+	Output.color.rgb = fLighting;
 
-	float3 kaopos = f3Position;// patch[0].pos*uvwCoord.x + patch[1].pos*uvwCoord.y + patch[2].pos*uvwCoord.z;
+	float3 kaopos = f3Position;
 	float4 g_CameraPos = float4(0.0f, 0.7f, 1.5f, 0.0f);
 	Output.EyeDir = mul(kaopos, (float3x3)model);
 	Output.EyeDir = normalize(g_CameraPos.xyz - Output.EyeDir);
-
 	//-------------------------------------------
-	//Output.pos.xyz = patch[0].pos*uvwCoord.x + patch[1].pos*uvwCoord.y + patch[2].pos*uvwCoord.z;
-	//Output.pos.w = 1;
-	//float4 pos = Output.pos;
-	//// Transform the vertex position into projected space.
-	//pos = mul(pos, model);
-	//pos = mul(pos, view);
-	//pos = mul(pos, projection);
-	//Output.pos = pos;
-
-
-	//Output.color = patch[0].color*uvwCoord.x + patch[1].color*uvwCoord.y + patch[2].color*uvwCoord.z;	
-	//Output.uv = patch[0].uv*uvwCoord.x + patch[1].uv*uvwCoord.y + patch[2].uv*uvwCoord.z;
-	//Output.norm = patch[0].norm*uvwCoord.x + patch[1].norm*uvwCoord.y + patch[2].norm*uvwCoord.z;
-
-	//Output.norm = normalize(mul(Output.norm, (float3x3)model));
-	//float fLighting = saturate(dot(Output.norm, lightDir));
-	//Output.color.rgb = fLighting;// saturate(fLighting + input.color);
-
-	//float3 kaopos = patch[0].pos*uvwCoord.x + patch[1].pos*uvwCoord.y + patch[2].pos*uvwCoord.z;
-	//float4 g_CameraPos = float4(0.0f, 0.7f, 1.5f, 0.0f);
-	//Output.EyeDir = mul(kaopos, (float3x3)model);
-	//Output.EyeDir = normalize(g_CameraPos.xyz - Output.EyeDir);
-
 	return Output;
 }
 
