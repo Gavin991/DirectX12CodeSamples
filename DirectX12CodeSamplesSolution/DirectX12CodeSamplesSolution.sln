@@ -100,6 +100,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DirectX12XAMLDisplacementMa
 		{371B9FA9-4C90-4AC6-A123-ACED756D6C77} = {371B9FA9-4C90-4AC6-A123-ACED756D6C77}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiretctX12IndirectComputeShader", "DiretctX12IndirectComputeShader\DiretctX12IndirectComputeShader\DiretctX12IndirectComputeShader.vcxproj", "{675C0607-DD83-45F6-A2FE-29B28B53B39F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{371B9FA9-4C90-4AC6-A123-ACED756D6C77} = {371B9FA9-4C90-4AC6-A123-ACED756D6C77}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -722,6 +727,33 @@ Global
 		{2D8F0FB0-2D25-484C-AFD9-F31C98A94E25}.Release|x86.ActiveCfg = Release|Win32
 		{2D8F0FB0-2D25-484C-AFD9-F31C98A94E25}.Release|x86.Build.0 = Release|Win32
 		{2D8F0FB0-2D25-484C-AFD9-F31C98A94E25}.Release|x86.Deploy.0 = Release|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|ARM.Build.0 = Debug|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|x64.ActiveCfg = Debug|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|x64.Build.0 = Debug|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|x64.Deploy.0 = Debug|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|x86.ActiveCfg = Debug|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|x86.Build.0 = Debug|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Debug|x86.Deploy.0 = Debug|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|ARM.ActiveCfg = Release|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|ARM.Build.0 = Release|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|ARM.Deploy.0 = Release|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|x64.ActiveCfg = Release|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|x64.Build.0 = Release|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|x64.Deploy.0 = Release|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|x86.ActiveCfg = Release|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|x86.Build.0 = Release|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Profile|x86.Deploy.0 = Release|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|ARM.ActiveCfg = Release|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|ARM.Build.0 = Release|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|ARM.Deploy.0 = Release|ARM
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|x64.ActiveCfg = Release|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|x64.Build.0 = Release|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|x64.Deploy.0 = Release|x64
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|x86.ActiveCfg = Release|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|x86.Build.0 = Release|Win32
+		{675C0607-DD83-45F6-A2FE-29B28B53B39F}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
